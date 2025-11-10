@@ -1,0 +1,2 @@
+# torre-escarlate
+Bot Automatizado
