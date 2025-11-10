@@ -1,0 +1,26 @@
+{
+  "name": "torre-escarlate-bot",
+  "version": "1.0.0",
+  "description": "Bot para gerenciar a Torre Escarlate no WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Testando bot...\" && node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "torre-escarlate"
+  ],
+  "author": "Torre Escarlate",
+  "license": "MIT"
+}
